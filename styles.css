@@ -24,14 +24,17 @@ a:hover {
     font-size: 40px;
     width: 100%;
     background: LightGray;
+    display: grid;
 }
 
 img {
   max-width: 600px;
 }
 
-.d11{background:LightSkyBlue;}
-.d22{background:LightSalmon;}
-.d33{background:PaleTurquoise;}
-.d44{background:LightPink;}
-.d55{background:PaleGreen;}
+.container-second {
+  font-size: 40px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 50px 50px;
+}
