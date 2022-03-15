@@ -1,0 +1,18 @@
+@import url(example.css);
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* height: 100vh; */
+}
+
+.d1 { background-color: cadetblue; }
+.d2 { background-color: chartreuse;}
+.d3 { background-color: chocolate; }
+.d4 { background-color: cornflowerblue; }
+.d5 { background-color: crimson; }
+.d6 { background-color: cornsilk; }
+.d7 { background-color: cyan }
+.d8 { background-color: darkblue; }
+.d9 { background-color: darkgoldenrod; }
